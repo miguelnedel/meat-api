@@ -5,6 +5,6 @@
     "module": "commonjs"
   },
   "exclude": [
-    "**/*.test.js"
+      "**/*.test.ts"
   ]
 }

@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "jest": {
+    "verbose": true,
     "globals": {
       "address": "http://localhost:3001"
     },
@@ -17,7 +18,7 @@
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx)$",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "moduleFileExtensions": [
       "ts",
       "tsx",
@@ -28,13 +29,13 @@
     ]
   },
   "dependencies": {
-    "bcrypt": "3.0.0",
+    "bcrypt": "1.0.3",
     "mongoose": "4.13.9",
     "restify": "6.3.4",
     "restify-errors": "5.0.0"
   },
   "devDependencies": {
-    "@types/bcrypt": "3.0.0",
+    "@types/bcrypt": "1.0.0",
     "@types/jest": "22.1.2",
     "@types/mongoose": "4.7.32",
     "@types/restify": "5.0.6",
